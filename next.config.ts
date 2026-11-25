@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
+  serverExternalPackages: ["mongodb", "mongodb-memory-server"],
   turbopack: {
     rules: {
       "*.css": {
